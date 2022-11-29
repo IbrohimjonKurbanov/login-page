@@ -1,0 +1,164 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+ul, li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+.main
+{
+    height: 100%;
+    display: flex;
+}
+.container
+{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: none;
+    padding-right: none;
+}
+.main-container
+{
+    display: flex;
+     width: 100%;
+}
+.left
+{
+    background-image: url('../images/left-bg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.right
+{
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+form
+{
+    width: 370px;
+    margin-bottom: 70px;
+}
+
+
+.form-title-1 {
+    color: rgba(45, 55, 72, 1);
+    font-weight: 400;
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.form-title-2 {
+    color: rgba(26, 32, 44, 1);
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+.label
+{
+    line-height: 40px;
+    color: #4A5568;
+}
+.check
+{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+.email-input, .password-input
+{
+    width: 100%;
+    padding: 17px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #e8e8e8;
+}
+button
+{
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    background: #04C45C;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 19px;
+    border: none;
+}
+.google
+{
+    background: #2D3748;
+    display: flex;
+    justify-content: center;
+    line-height: 19px;
+    width: 100%;
+    padding: 16px 0;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+    border: none;
+}
+.google-logo
+{
+    padding-right: 5px;
+}
+.text 
+{
+ text-align: center;
+ margin-bottom: 90px;
+}
